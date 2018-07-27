@@ -272,7 +272,7 @@
 						this.dragged = 0;
 					}
 				}
-				x = this.reversed ? this.percentage[1] - percentage : percentage;
+				var x = this.reversed ? this.percentage[1] - percentage : percentage;
 				if (x > this.limit) {
 					return ;
 				}
